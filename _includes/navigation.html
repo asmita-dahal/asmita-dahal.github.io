@@ -1,7 +1,31 @@
-<nav>
-	{% for item in site.data.navigation %}
-	  <a href="{{item.link}}" {% if page.url == item.link %} style="color: green;" {% endif %}>
-	    {{item.name}}
-	  </a>
-  	{% endfor %}
-</nav>
+<nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+  <div class="site-nav-wrap">
+    <div class="site-nav-inside">
+      <ul class="menu">
+        {% for item in site.data.navigation %}
+          {% assign pageUrl = page.url | trim('/') %}
+          {% assign itemUrl = item.url | trim('/') %}
+          <li class="menu-item" {% if pageUrl == itemUrl %} class="current-menu-item" {% endif %}>
+            <a href="{{ item.url | relative_url }}"{% if item.new_window %} target="_blank" rel="noopener"{% endif %}>{{ item.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <div class="social-links">
+        {% for item in site.data.social_sites %}
+        {% if item %}
+        <a class="button-circle" href="{{ item.url | relative_url }}"{% if item.new_window %} target="_blank" rel="noopener"{% endif %}>
+          {% if item.style == 'icon' and item.icon_class %}
+          <span class="fab {{ item.icon_class }}" aria-hidden="true"></span><span class="screen-reader-text">{{ item.label }}</span>
+          {% else %}
+          {{ item.label }}
+          {% endif %}
+        </a>
+    	</div>
+        {% endif %}
+        {% endfor %}
+      </div> <!-- .social-links -->
+    </div><!-- .site-nav-inside -->
+  </div><!-- .site-nav-wrap -->
+</nav><!-- .site-navigation -->
+

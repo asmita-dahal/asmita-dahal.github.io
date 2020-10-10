@@ -1,6 +1,5 @@
 Home:
 	General Description... CV profile
-	Download CV option.
 
 About:
 	CV styled page.

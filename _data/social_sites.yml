@@ -1,0 +1,15 @@
+- label: Twitter
+  url: https://twitter.com/asmitaa_d
+  style: icon
+  icon_class: fa-twitter
+  new_window: true
+- label: Instagram
+  url: https://www.instagram.com/asmita.dahal.1/
+  style: icon
+  icon_class: fa-instagram
+  new_window: true
+- label: linkedin
+  url: https://www.linkedin.com/in/asmita-dahal-7a664a177/
+  style: icon
+  icon_class: fa-linkedin
+  new_window: true
