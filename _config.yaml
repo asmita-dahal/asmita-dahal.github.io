@@ -1,0 +1,8 @@
+collections:
+  works:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
