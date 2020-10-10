@@ -1,0 +1,14 @@
+Home:
+	General Description... CV profile
+	Download CV option.
+
+About:
+	CV styled page.
+
+Portfolio:
+	List all works with a picture and excerpt.
+	Link to the individual works.	
+
+Contact:
+	- Email address
+	- Physical address
