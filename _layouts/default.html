@@ -8,9 +8,35 @@
     <link rel="stylesheet" href="/assets/css/styles.css"/>
   </head>
   <body>
-  	{% include navigation.html %}
-    {{content}}
+  	<div id="theme-bar" class="theme-bar theme-bar-fixed theme-bar-hidden">
+      <div class="theme-bar-left">
+        <div class="theme-bar-name">
+          Asmita Dahal
+        </div>
+      </div>
+  	</div>
+  	<div id="page" class="site palette-yellow">
+  		<header id="masthead" class="site-header">
+		  {% if include_dict.image %}
+		  <div id="header-bg" class="site-header-bg" style="background-image:url('{{ include_dict.image | relative_url }}')"></div>
+		  {% else if include_dict.site.params.header.background_img %}
+		  <div id="header-bg" class="site-header-bg" style="background-image:url('{{ include_dict.site.params.header.background_img | relative_url }}')"></div>
+		  {% endif %}
+		  <div class="site-header-scroll">
+		    <div class="site-header-inside">
+		      <div class="site-header-vertical">
+		        {% include navigation.html %}
+		      </div><!-- .site-header-vertical -->
+		    </div><!-- .site-header-inside -->
+		  </div><!-- .site-header-scroll -->
+		</header><!-- .site-header -->
+	</div>
+	<div class="col-md-6 col-md-offset-4">
+    	{{content}}
+    </div>
   </body>
+
+  <!-- Scripts -->
+	<script src="{{ 'assets/js/plugins.js' | relative_url }}"></script>
+	<script src="{{ 'assets/js/main.js' | relative_url }}"></script>
 </html>
-
-
