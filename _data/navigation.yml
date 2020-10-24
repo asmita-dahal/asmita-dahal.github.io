@@ -1,8 +1,12 @@
 - name: Home
   url: /
+  style: link
 - name: About
   url: /about.html
+  style: link
 - name: Portfolio
   url: /portfolio.html
+  style: link
 - name: Contact
   url: /contact.html
+  style: link

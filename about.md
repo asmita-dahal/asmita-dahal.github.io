@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Asmita Dahal | About
 ---
 # About Page
 This is an about page.
