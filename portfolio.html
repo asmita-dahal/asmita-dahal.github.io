@@ -2,14 +2,24 @@
 layout: default
 title: Asmita Dahal | Portfolio
 ---
-<h1>Portfolio Page</h1>
-
-<ul>
+<div class="post-feed">
   {% for work in site.works %}
-    <li>
-      <h2><a href="{{ work.url }}">{{ work.name }}</a>></h2>
-      <h3>{{ work.location }}</h3>
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title"><a href="{{ work.url | relative_url }}" rel="bookmark">{{ work.name }}</a></h2>
+      <div class="post-meta">{{ work.location }}</div>
+    </header><!-- .post-header -->
+    {% if work.thumbnail %}
+    <a class="post-thumbnail" href="{{ work.url | relative_url }}">
+      <img class="thumbnail" src="{{ work.thumbnail | relative_url }}" alt="{{ work.name }}" />
+    </a>
+    {% endif %}
+    <div class="post-content">
       <p>{{ work.approach }}</p>
-    </li>
+    </div><!-- .post-content -->
+    <p class="read-more">
+      <a class="read-more-link" href="{{ work.url | relative_url }}">Know Details<span class="icon-arrow-right" aria-hidden="true"></span></a>
+    </p>
+  </article><!-- .post -->
   {% endfor %}
-</ul>
+</div><!-- .post-feed -->

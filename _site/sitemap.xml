@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/works/dance-academy.html</loc>
-<lastmod>2020-10-24T19:05:01+05:45</lastmod>
+<loc>http://localhost:4000/works/dance.html</loc>
+<lastmod>2020-10-25T00:16:21+05:45</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/works/interior.html</loc>
+<lastmod>2020-10-25T00:16:21+05:45</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/works/museum.html</loc>
+<lastmod>2020-10-25T00:16:21+05:45</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/works/residence.html</loc>
+<lastmod>2020-10-25T00:16:21+05:45</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/works/school.html</loc>
-<lastmod>2020-10-24T19:05:01+05:45</lastmod>
+<lastmod>2020-10-25T00:16:21+05:45</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about.html</loc>

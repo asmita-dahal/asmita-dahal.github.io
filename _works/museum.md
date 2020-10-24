@@ -1,8 +1,8 @@
 ---
-name: School Design
-approach: Low cost design
-location: Manigram, Butwal
-thumbnail: "assets/images/school_1.jpg"
+name: Musuem Design
+approach: Depicting the Newari architecture
+location: Solukhumbu
+thumbnail: "assets/images/museum_1.jpg"
 
 layout: work
 ---
