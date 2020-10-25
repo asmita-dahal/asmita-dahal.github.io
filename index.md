@@ -3,10 +3,10 @@ layout: index
 title: Asmita Dahal
 ---
 
-**Asmita Dahal** is an Architect from Kathmandu, Nepal. After graduating from Kathmandu Engineering College with a degree in Architecture, she worked for three small graphic design shops where she honed his design style and sensibility.
+**Asmita Dahal** is an Architect from Kathmandu, Nepal. After graduating from Kathmandu Engineering College with a degree in Architecture, she has worked for three architecture firms alongside with some freelancing projects. She is interested in **Green Designs**.
 
-Her work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+She is currently working for Elite Design and Engineering as a senior architect. Previously she worked for KSM Services Pvt. Ltd. and QNC construction Pvt. Ltd. for around two years combined.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+>Beauty perishes in life, but is immortal in art.<cite>Leonardo da Vinci</cite>
 
-As a hobby, Asmita Dahal authors the most influential design blog in Sweden with over 100,000 page views a month. She lives in Stockholm with his beautiful wife and two boys.
+As a hobby, Asmita Dahal watches lots of movies. She is also an avid book reader.
