@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-{{content}}
-{% for item in  page.img %}
-        <img class="thumbnail" src="{{ item | relative_url }}" />
-{% endfor %}
+
+<article class="post post-full">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.name }}</h1>
+      <div class="post-meta">Site Location: {{ page.location }}</div>
+    </header><!-- .post-header -->
+    <div class="post-content">
+      {{ page.about }}
+    </br></br>
+      {% for item in  page.img %}
+        <img class="thumbnail" src="{{ item.src | relative_url }}" />
+        <div class="post-meta">{{ item.caption }}</div></br>
+       {% endfor %}
+
+       {{ page.content }}
+    </div><!-- .post-content -->
+  </article><!-- .post -->
