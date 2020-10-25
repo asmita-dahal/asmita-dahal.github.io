@@ -3,7 +3,10 @@ name: Musuem Design
 approach: Depicting the Newari architecture
 location: Solukhumbu
 thumbnail: "assets/images/museum_1.jpg"
-
+img:
+    - "assets/images/museum_1.jpg"
+    - "assets/images/museum_2.jpg"
+    - "assets/images/museum_3.jpg"
 layout: work
 ---
 ### {{page.name}}

@@ -1,6 +1,9 @@
 ---
 name: Residence Design
 thumbnail: "assets/images/residence_1.jpg"
+img: 
+    - "assets/images/residence_1.jpg"
+    - "assets/images/residence_2.jpg"
 
 layout: work
 ---

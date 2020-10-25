@@ -3,7 +3,9 @@ name: School Design
 approach: Low cost design
 location: Manigram, Butwal
 thumbnail: "assets/images/school_1.jpg"
-
+img: 
+    - "assets/images/school_1.jpg"
+    - "assets/images/school_2.jpg"
 layout: work
 ---
 ### {{page.name}}
