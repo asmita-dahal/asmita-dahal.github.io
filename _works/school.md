@@ -11,6 +11,8 @@ img:
       caption: caption 1
     - src: "assets/images/school_2.jpg"
       caption: caption 2
+    - src: "assets/images/museum_2.jpg"
+      caption: caption 2
 layout: work
 ---
 
