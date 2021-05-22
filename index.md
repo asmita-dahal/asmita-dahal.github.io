@@ -9,4 +9,4 @@ She is currently working for Elite Design and Engineering as a senior architect.
 
 >Beauty perishes in life, but is immortal in art.<cite>Leonardo da Vinci</cite>
 
-As a hobby, Asmita Dahal watches lots of movies. She is also an avid book reader.
+As a hobby, Asmita Dahal watches lots of movies. She is also a lover of B.
